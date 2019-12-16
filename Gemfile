@@ -10,7 +10,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 group :production do
-  gem 'pg'
+  gem 'pg', '1.1.4'
 end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
@@ -53,6 +53,9 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+  gem 'minitest-reporters',       '1.1.11'
+  gem 'guard',                    '2.16.1'
+  gem 'guard-minitest',           '2.4.6'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
