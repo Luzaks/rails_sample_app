@@ -31,7 +31,7 @@ gem 'bootstrap-sass', '3.4.1'
 
 gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
 
-gem 'rack', '~> 2.0', '>= 2.0.8'
+gem 'rack', '~> 2.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
